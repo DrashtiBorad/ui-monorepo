@@ -21,52 +21,52 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".github/workflows/ci.yml",
-        "hash": "17516770727186600528"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4230216937812102267"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10000561406389782255"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "17470242053732854283"
-      },
-      {
-        "file": "package.json",
-        "hash": "10610812232938986526"
-      },
-      {
         "file": ".npmrc",
         "hash": "3244421341483603138"
       },
       {
-        "file": "package-lock.json",
-        "hash": "4911520258087075594"
+        "file": "README.md",
+        "hash": "10919049593088223224"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "1379983966652230747"
-      },
-      {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "5673190821613406900"
+        "file": ".gitignore",
+        "hash": "14158189741252753807"
       },
       {
         "file": "tsconfig.tsbuildinfo",
         "hash": "5929795205745521524"
       },
       {
-        "file": "README.md",
-        "hash": "10919049593088223224"
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17784612413447003528"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10000561406389782255"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "17516770727186600528"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5673190821613406900"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4230216937812102267"
+      },
+      {
+        "file": "package.json",
+        "hash": "13233036090444670731"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
       }
     ],
     "projectFileMap": {
@@ -118,7 +118,7 @@
         },
         {
           "file": "packages/ui/project.json",
-          "hash": "1170275582342853415"
+          "hash": "5646014921390144882"
         },
         {
           "file": "packages/ui/src/index.ts",

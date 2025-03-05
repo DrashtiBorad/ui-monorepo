@@ -1,5 +1,5 @@
 {
-  "13282079839919655807_packages/ui/tsconfig.json": {
+  "2530613203091827748_packages/ui/tsconfig.json": {
     "targets": {
       "typecheck": {
         "dependsOn": [
@@ -50,121 +50,7 @@
       }
     }
   },
-  "11535018559302653355_packages/ui/tsconfig.lib.json": {
-    "targets": {
-      "build": {
-        "dependsOn": [
-          "^build"
-        ],
-        "command": "tsc --build tsconfig.lib.json",
-        "options": {
-          "cwd": "packages/ui"
-        },
-        "cache": true,
-        "inputs": [
-          "{projectRoot}/package.json",
-          "{projectRoot}/tsconfig.json",
-          "{projectRoot}/tsconfig.lib.json",
-          "{projectRoot}/src",
-          "!{projectRoot}/node_modules",
-          "!{projectRoot}/dist",
-          "!{projectRoot}/test",
-          "!{projectRoot}/**/*.test.ts",
-          "!{projectRoot}/**/*.test.tsx",
-          "^production",
-          {
-            "externalDependencies": [
-              "typescript"
-            ]
-          }
-        ],
-        "outputs": [
-          "{projectRoot}/dist",
-          "{projectRoot}/*.tsbuildinfo"
-        ],
-        "syncGenerators": [
-          "@nx/js:typescript-sync"
-        ],
-        "metadata": {
-          "technologies": [
-            "typescript"
-          ],
-          "description": "Builds the project with `tsc`.",
-          "help": {
-            "command": "npx tsc --build --help",
-            "example": {
-              "args": [
-                "--force"
-              ]
-            }
-          }
-        }
-      },
-      "build-deps": {
-        "dependsOn": [
-          "^build"
-        ]
-      },
-      "watch-deps": {
-        "dependsOn": [
-          "build-deps"
-        ],
-        "command": "npx nx watch --projects ui --includeDependentProjects -- npx nx build-deps ui"
-      }
-    }
-  },
-  "14658816885507803705_packages/ui/tsconfig.json": {
-    "targets": {
-      "typecheck": {
-        "dependsOn": [
-          "^typecheck"
-        ],
-        "command": "tsc --build --emitDeclarationOnly",
-        "options": {
-          "cwd": "packages/ui"
-        },
-        "cache": true,
-        "inputs": [
-          "{projectRoot}/package.json",
-          "{projectRoot}/tsconfig.json",
-          "{projectRoot}/src",
-          "!{projectRoot}/node_modules",
-          "!{projectRoot}/dist",
-          "!{projectRoot}/test",
-          "!{projectRoot}/**/*.test.ts",
-          "!{projectRoot}/**/*.test.tsx",
-          "^production",
-          {
-            "externalDependencies": [
-              "typescript"
-            ]
-          }
-        ],
-        "outputs": [
-          "{projectRoot}/dist",
-          "{projectRoot}/*.tsbuildinfo"
-        ],
-        "syncGenerators": [
-          "@nx/js:typescript-sync"
-        ],
-        "metadata": {
-          "technologies": [
-            "typescript"
-          ],
-          "description": "Runs type-checking for the project.",
-          "help": {
-            "command": "npx tsc --build --help",
-            "example": {
-              "args": [
-                "--force"
-              ]
-            }
-          }
-        }
-      }
-    }
-  },
-  "6154104306397272939_packages/ui/tsconfig.lib.json": {
+  "7961770159052768287_packages/ui/tsconfig.lib.json": {
     "targets": {
       "build": {
         "dependsOn": [

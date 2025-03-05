@@ -1,59 +1,39 @@
-name: CI & Release
+name: Build and Publish UI Package
 
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org/
-          scope: "@react-ui-monorepo"
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: npm install
 
-      - name: Build packages
-        run: npx nx build ui
+      - name: Show NX Projects
+        run: npx nx show projects
 
-      - name: Run tests
-        run: npx nx test ui
+      - name: Reset NX Cache
+        run: npx nx reset
 
-  release:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Required for Semantic Release
+      - name: Build UI Package
+        run: npx nx build ui --verbose --skip-nx-cache
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          registry-url: https://registry.npmjs.org/
-          scope: "@react-ui-monorepo"
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build packages
-        run: npx nx build ui
-
-      - name: Publish to npm
+      - name: Publish Package
+        run: npx nx release publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx nx release publish

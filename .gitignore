@@ -4,6 +4,4 @@
 
 # dependencies
 node_modules
-packages/ui/node_modules
-
 .nx
