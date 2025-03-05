@@ -21,52 +21,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "17784612413447003528"
+        "file": ".gitignore",
+        "hash": "14158189741252753807"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "5673190821613406900"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "1379983966652230747"
-      },
-      {
-        "file": "package.json",
-        "hash": "13233036090444670731"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "2092071812585437864"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "3244421341483603138"
+        "file": "tsconfig.base.json",
+        "hash": "10000561406389782255"
       },
       {
         "file": "tsconfig.tsbuildinfo",
         "hash": "5929795205745521524"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "10000561406389782255"
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
       },
       {
-        "file": ".gitignore",
-        "hash": "14158189741252753807"
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
       },
       {
         "file": "nx.json",
         "hash": "4230216937812102267"
       },
       {
-        "file": "README.md",
-        "hash": "10919049593088223224"
+        "file": "package.json",
+        "hash": "13233036090444670731"
       },
       {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
+        "file": "package-lock.json",
+        "hash": "17784612413447003528"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "2092071812585437864"
+      },
+      {
+        "file": "README.md",
+        "hash": "10919049593088223224"
       }
     ],
     "projectFileMap": {
