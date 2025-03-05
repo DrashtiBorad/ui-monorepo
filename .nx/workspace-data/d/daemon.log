@@ -10,3 +10,130 @@
 [NX Daemon Server] - 2025-03-05T12:10:47.841Z - [WATCHER]: Stopping the watcher for C:\Users\Asus\react\react-ui-monorepo (sources)
 [NX Daemon Server] - 2025-03-05T12:10:47.842Z - [WATCHER]: Stopping the watcher for C:\Users\Asus\react\react-ui-monorepo (outputs)
 [NX Daemon Server] - 2025-03-05T12:10:47.845Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2025-03-05T13:33:48.923Z - Started listening on: \\.\pipe\nx\C:\Users\Asus\AppData\Local\Temp\05a90b813388a041110f\d.sock
+[NX Daemon Server] - 2025-03-05T13:33:48.946Z - [WATCHER]: Subscribed to changes within: C:\Users\Asus\react\react-ui-monorepo (native)
+[NX Daemon Server] - 2025-03-05T13:33:48.954Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-03-05T13:33:48.957Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-03-05T13:33:48.962Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-03-05T13:33:48.966Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-03-05T13:33:51.323Z - Time taken for 'Load Nx Plugin: C:\Users\Asus\react\react-ui-monorepo\node_modules\nx\src\plugins\package-json' 2337.3482000000004ms
+[NX Daemon Server] - 2025-03-05T13:33:51.330Z - Time taken for 'Load Nx Plugin: C:\Users\Asus\react\react-ui-monorepo\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 2342.7738ms
+[NX Daemon Server] - 2025-03-05T13:33:51.484Z - Time taken for 'loadDefaultNxPlugins' 2504.829ms
+[NX Daemon Server] - 2025-03-05T13:33:51.997Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-03-05T13:33:51.998Z - [REQUEST]: 
+[NX Daemon Server] - 2025-03-05T13:33:51.998Z - [REQUEST]: 
+[NX Daemon Server] - 2025-03-05T13:33:52.029Z - Time taken for 'loadSpecifiedNxPlugins' 3022.3523000000005ms
+[NX Daemon Server] - 2025-03-05T13:33:52.912Z - Time taken for 'build-project-configs' 814.1433999999999ms
+[NX Daemon Server] - 2025-03-05T13:33:52.924Z - Time taken for '@nx/js/typescript:createDependencies' 10.691100000000006ms
+[NX Daemon Server] - 2025-03-05T13:33:53.037Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-03-05T13:33:53.042Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX Daemon Server] - 2025-03-05T13:33:53.042Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-03-05T13:33:53.043Z - Time taken for 'total for creating and serializing project graph' 4075.9934000000003ms
+[NX Daemon Server] - 2025-03-05T13:33:53.044Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-03-05T13:33:53.044Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 4076. Response time: 2.
+[NX Daemon Server] - 2025-03-05T13:33:53.075Z - [REQUEST]: Responding to the client. handleRunPreTasksExecution
+[NX Daemon Server] - 2025-03-05T13:33:53.075Z - Time taken for 'preTasksExecution' 1.9340999999994892ms
+[NX Daemon Server] - 2025-03-05T13:33:53.076Z - Done responding to the client handleRunPreTasksExecution
+[NX Daemon Server] - 2025-03-05T13:33:53.076Z - Handled PRE_TASKS_EXECUTION. Handling time: 2. Response time: 1.
+[NX Daemon Server] - 2025-03-05T13:33:53.155Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX Daemon Server] - 2025-03-05T13:33:54.155Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-03-05T13:33:54.156Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-03-05T13:33:54.157Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2025-03-05T13:33:54.157Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-03-05T13:33:54.159Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-03-05T13:33:54.159Z - Handled HASH_TASKS. Handling time: 29. Response time: 4.
+[NX Daemon Server] - 2025-03-05T13:33:54.162Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-03-05T13:33:54.164Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-03-05T13:33:54.165Z - Time taken for 'total for creating and serializing project graph' 1.7235000000000582ms
+[NX Daemon Server] - 2025-03-05T13:33:54.230Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX Daemon Server] - 2025-03-05T13:33:54.231Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 1074.7776000000003ms
+[NX Daemon Server] - 2025-03-05T13:33:54.232Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-03-05T13:33:54.232Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 68.
+[NX Daemon Server] - 2025-03-05T13:33:54.246Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-03-05T13:33:54.248Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-03-05T13:33:54.248Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 10. Response time: 2.
+[NX Daemon Server] - 2025-03-05T13:33:57.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-03-05T13:33:57.875Z - [WATCHER]: packages/ui/dist was deleted
+[NX Daemon Server] - 2025-03-05T13:33:57.989Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-03-05T13:33:57.989Z - [REQUEST]: 
+[NX Daemon Server] - 2025-03-05T13:33:57.989Z - [REQUEST]: packages/ui/dist
+[NX Daemon Server] - 2025-03-05T13:33:58.002Z - Time taken for 'hash changed files from watcher' 0.11089999999967404ms
+[NX Daemon Server] - 2025-03-05T13:33:58.050Z - Time taken for 'build-project-configs' 40.94030000000021ms
+[NX Daemon Server] - 2025-03-05T13:33:58.053Z - Time taken for '@nx/js/typescript:createDependencies' 9.174399999999878ms
+[NX Daemon Server] - 2025-03-05T13:33:58.107Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-03-05T13:33:58.110Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-03-05T13:33:58.110Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-03-05T13:33:58.111Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX Daemon Server] - 2025-03-05T13:33:58.111Z - Time taken for 'total execution time for createProjectGraph()' 41.07510000000002ms
+[NX Daemon Server] - 2025-03-05T13:33:58.320Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX Daemon Server] - 2025-03-05T13:33:58.338Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-03-05T13:33:58.340Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-03-05T13:33:58.342Z - Time taken for 'total for creating and serializing project graph' 2.306400000001304ms
+[NX Daemon Server] - 2025-03-05T13:33:58.389Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX Daemon Server] - 2025-03-05T13:33:58.390Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 68.2497999999996ms
+[NX Daemon Server] - 2025-03-05T13:33:58.391Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-03-05T13:33:58.391Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 51.
+[NX Daemon Server] - 2025-03-05T13:33:58.829Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-03-05T13:33:58.833Z - [WATCHER]: tmp/packages/ui/build/tsconfig.generated.46920a66-7c86-4fa1-84b4-67c44bae63d7.json was modified
+[NX Daemon Server] - 2025-03-05T13:33:58.955Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-03-05T13:33:58.955Z - [REQUEST]: tmp/packages/ui/build/tsconfig.generated.46920a66-7c86-4fa1-84b4-67c44bae63d7.json
+[NX Daemon Server] - 2025-03-05T13:33:58.956Z - [REQUEST]: 
+[NX Daemon Server] - 2025-03-05T13:33:58.969Z - Time taken for 'hash changed files from watcher' 1.3387000000002445ms
+[NX Daemon Server] - 2025-03-05T13:33:59.020Z - Time taken for 'build-project-configs' 35.144500000000335ms
+[NX Daemon Server] - 2025-03-05T13:33:59.021Z - Time taken for '@nx/js/typescript:createDependencies' 10.949300000000221ms
+[NX Daemon Server] - 2025-03-05T13:33:59.122Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-03-05T13:33:59.125Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-03-05T13:33:59.126Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-03-05T13:33:59.126Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX Daemon Server] - 2025-03-05T13:33:59.127Z - Time taken for 'total execution time for createProjectGraph()' 41.89439999999922ms
+[NX Daemon Server] - 2025-03-05T13:33:59.529Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX Daemon Server] - 2025-03-05T13:33:59.550Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-03-05T13:33:59.555Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-03-05T13:33:59.557Z - Time taken for 'total for creating and serializing project graph' 5.226200000000972ms
+[NX Daemon Server] - 2025-03-05T13:33:59.594Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX Daemon Server] - 2025-03-05T13:33:59.594Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 64.75979999999981ms
+[NX Daemon Server] - 2025-03-05T13:33:59.595Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-03-05T13:33:59.595Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 5. Response time: 40.
+[NX Daemon Server] - 2025-03-05T13:34:16.371Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-03-05T13:34:16.382Z - [WATCHER]: 0 file(s) created or restored, 6 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-03-05T13:34:16.444Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-03-05T13:34:16.444Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-03-05T13:34:16.500Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-03-05T13:34:16.501Z - [REQUEST]: packages/ui/dist/src/lib/button.d.ts,packages/ui/dist/src/lib/button.d.ts.map,packages/ui/dist/src/index.d.ts.map,packages/ui/dist/src/index.js,packages/ui/dist/src/lib/button.js,packages/ui/dist/src/index.d.ts,packages/ui/dist/package.json
+[NX Daemon Server] - 2025-03-05T13:34:16.501Z - [REQUEST]: tmp/packages/ui/build/tsconfig.generated.46920a66-7c86-4fa1-84b4-67c44bae63d7.json
+[NX Daemon Server] - 2025-03-05T13:34:16.548Z - Time taken for 'hash changed files from watcher' 8.343799999998737ms
+[NX Daemon Server] - 2025-03-05T13:34:16.691Z - Time taken for 'build-project-configs' 118.84949999999662ms
+[NX Daemon Server] - 2025-03-05T13:34:16.693Z - Time taken for '@nx/js/typescript:createDependencies' 12.350200000000768ms
+[NX Daemon Server] - 2025-03-05T13:34:16.788Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-03-05T13:34:16.837Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-03-05T13:34:16.839Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-03-05T13:34:16.840Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-03-05T13:34:16.840Z - [SYNC]: scheduling: ["@nx/js:typescript-sync"]
+[NX Daemon Server] - 2025-03-05T13:34:16.840Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-03-05T13:34:16.840Z - Handled RECORD_OUTPUTS_HASH. Handling time: 28. Response time: 52.
+[NX Daemon Server] - 2025-03-05T13:34:16.841Z - Time taken for 'total execution time for createProjectGraph()' 137.1222999999991ms
+[NX Daemon Server] - 2025-03-05T13:34:16.864Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-03-05T13:34:16.867Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-03-05T13:34:16.867Z - Handled RECORD_TASK_RUNS. Handling time: 3. Response time: 3.
+[NX Daemon Server] - 2025-03-05T13:34:16.873Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-03-05T13:34:16.874Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-03-05T13:34:16.874Z - Handled GET_FLAKY_TASKS. Handling time: 3. Response time: 1.
+[NX Daemon Server] - 2025-03-05T13:34:16.893Z - [REQUEST]: Responding to the client. handleRunPostTasksExecution
+[NX Daemon Server] - 2025-03-05T13:34:16.893Z - Time taken for 'postTasksExecution' 1.938399999999092ms
+[NX Daemon Server] - 2025-03-05T13:34:16.894Z - Done responding to the client handleRunPostTasksExecution
+[NX Daemon Server] - 2025-03-05T13:34:16.894Z - Handled POST_TASKS_EXECUTION. Handling time: 3. Response time: 1.
+[NX Daemon Server] - 2025-03-05T13:34:16.918Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-03-05T13:34:17.668Z - [SYNC]: running scheduled generator @nx/js:typescript-sync
+[NX Daemon Server] - 2025-03-05T13:34:17.688Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-03-05T13:34:17.690Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-03-05T13:34:17.693Z - Time taken for 'total for creating and serializing project graph' 2.0446000000010827ms
+[NX Daemon Server] - 2025-03-05T13:34:17.726Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX Daemon Server] - 2025-03-05T13:34:17.726Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 57.576099999998405ms
+[NX Daemon Server] - 2025-03-05T13:34:17.727Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-03-05T13:34:17.727Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 37.
+[NX Daemon Server] - 2025-03-05T13:34:43.455Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2025-03-05T13:34:43.474Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-03-05T13:34:43.481Z - [WATCHER]: Stopping the watcher for C:\Users\Asus\react\react-ui-monorepo (sources)
+[NX Daemon Server] - 2025-03-05T13:34:43.488Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-03-05T13:34:43.489Z - [WATCHER]: Stopping the watcher for C:\Users\Asus\react\react-ui-monorepo (outputs)
+[NX Daemon Server] - 2025-03-05T13:34:43.554Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"

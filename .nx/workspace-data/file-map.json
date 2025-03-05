@@ -19,11 +19,61 @@
     }
   ],
   "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "17516770727186600528"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4230216937812102267"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10000561406389782255"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "17470242053732854283"
+      },
+      {
+        "file": "package.json",
+        "hash": "10610812232938986526"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4911520258087075594"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5673190821613406900"
+      },
+      {
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "5929795205745521524"
+      },
+      {
+        "file": "README.md",
+        "hash": "10919049593088223224"
+      }
+    ],
     "projectFileMap": {
       "ui": [
         {
           "file": "packages/ui/dist/package.json",
-          "hash": "8680507828096962877"
+          "hash": "16944357182334500632"
         },
         {
           "file": "packages/ui/dist/src/index.d.ts",
@@ -90,56 +140,6 @@
           "hash": "12944242280820828244"
         }
       ]
-    },
-    "nonProjectFiles": [
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "17516770727186600528"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "2142516906341357975"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "5673190821613406900"
-      },
-      {
-        "file": "README.md",
-        "hash": "10919049593088223224"
-      },
-      {
-        "file": "nx.json",
-        "hash": "6126608756934149290"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6228174654577370084"
-      },
-      {
-        "file": "package.json",
-        "hash": "10610812232938986526"
-      },
-      {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10000561406389782255"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "1379983966652230747"
-      },
-      {
-        "file": "tsconfig.tsbuildinfo",
-        "hash": "5929795205745521524"
-      }
-    ]
+    }
   }
 }
