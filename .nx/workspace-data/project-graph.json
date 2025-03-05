@@ -1,7 +1,7 @@
 {
   "nodes": {
-    "@react-ui-monorepo/ui": {
-      "name": "@react-ui-monorepo/ui",
+    "ui": {
+      "name": "ui",
       "type": "lib",
       "data": {
         "root": "packages/ui",
@@ -89,7 +89,7 @@
             ],
             "executor": "nx:run-commands",
             "options": {
-              "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+              "command": "npx nx watch --projects ui --includeDependentProjects -- npx nx build-deps ui"
             },
             "configurations": {},
             "parallelism": true
@@ -118,7 +118,7 @@
           }
         },
         "sourceRoot": "packages/ui/src",
-        "name": "@react-ui-monorepo/ui",
+        "name": "ui",
         "tags": [
           "npm:public"
         ],
@@ -129,7 +129,7 @@
             ]
           },
           "js": {
-            "packageName": "@react-ui-monorepo/ui",
+            "packageName": "ui",
             "packageMain": "dist/index.js",
             "isInPackageManagerWorkspaces": true
           }
@@ -6648,29 +6648,29 @@
     }
   },
   "dependencies": {
-    "@react-ui-monorepo/ui": [
+    "ui": [
       {
-        "source": "@react-ui-monorepo/ui",
+        "source": "ui",
         "target": "npm:react@18.3.1",
         "type": "static"
       },
       {
-        "source": "@react-ui-monorepo/ui",
+        "source": "ui",
         "target": "npm:react-dom@18.3.1",
         "type": "static"
       },
       {
-        "source": "@react-ui-monorepo/ui",
+        "source": "ui",
         "target": "npm:@types/react",
         "type": "static"
       },
       {
-        "source": "@react-ui-monorepo/ui",
+        "source": "ui",
         "target": "npm:nx",
         "type": "static"
       },
       {
-        "source": "@react-ui-monorepo/ui",
+        "source": "ui",
         "target": "npm:typescript",
         "type": "static"
       }
@@ -14924,5 +14924,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1741175367050
+  "computedAt": 1741176652706
 }

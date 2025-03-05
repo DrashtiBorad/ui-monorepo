@@ -19,61 +19,11 @@
     }
   ],
   "fileMap": {
-    "nonProjectFiles": [
-      {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tsconfig.tsbuildinfo",
-        "hash": "5929795205745521524"
-      },
-      {
-        "file": "README.md",
-        "hash": "10919049593088223224"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "1379983966652230747"
-      },
-      {
-        "file": "nx.json",
-        "hash": "7378375924001775226"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "5673190821613406900"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "15930990162647689008"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "6228174654577370084"
-      },
-      {
-        "file": "package.json",
-        "hash": "10610812232938986526"
-      },
-      {
-        "file": ".github/workflows/ci.yml",
-        "hash": "17516770727186600528"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "10000561406389782255"
-      }
-    ],
     "projectFileMap": {
-      "@react-ui-monorepo/ui": [
+      "ui": [
         {
           "file": "packages/ui/dist/package.json",
-          "hash": "13458177309665013257"
+          "hash": "8680507828096962877"
         },
         {
           "file": "packages/ui/dist/src/index.d.ts",
@@ -107,7 +57,7 @@
         },
         {
           "file": "packages/ui/package.json",
-          "hash": "2853538953657026256",
+          "hash": "11754657416864236689",
           "deps": [
             "npm:react@18.3.1",
             "npm:react-dom@18.3.1",
@@ -118,7 +68,7 @@
         },
         {
           "file": "packages/ui/project.json",
-          "hash": "5936702560840156721"
+          "hash": "1170275582342853415"
         },
         {
           "file": "packages/ui/src/index.ts",
@@ -140,6 +90,56 @@
           "hash": "12944242280820828244"
         }
       ]
-    }
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "17516770727186600528"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "2142516906341357975"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5673190821613406900"
+      },
+      {
+        "file": "README.md",
+        "hash": "10919049593088223224"
+      },
+      {
+        "file": "nx.json",
+        "hash": "6126608756934149290"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6228174654577370084"
+      },
+      {
+        "file": "package.json",
+        "hash": "10610812232938986526"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10000561406389782255"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
+      },
+      {
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "5929795205745521524"
+      }
+    ]
   }
 }
