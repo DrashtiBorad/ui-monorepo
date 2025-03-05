@@ -2,6 +2,9 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "react-ui-monorepo",
   "defaultBase": "main",
+  "projects": {
+    "ui": "packages/ui"
+  },
   "namedInputs": {
     "default": [
       "{projectRoot}/**/*",
