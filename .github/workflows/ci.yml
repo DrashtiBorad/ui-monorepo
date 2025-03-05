@@ -23,6 +23,9 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+        
+      - name: List Files in Repository
+        run: ls -R
 
       - name: Show NX Projects
         run: npx nx show projects
