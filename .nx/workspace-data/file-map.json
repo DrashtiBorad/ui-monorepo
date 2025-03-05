@@ -21,8 +21,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "14158189741252753807"
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "5929795205745521524"
       },
       {
         "file": ".vscode/extensions.json",
@@ -33,20 +33,12 @@
         "hash": "10000561406389782255"
       },
       {
-        "file": "tsconfig.tsbuildinfo",
-        "hash": "5929795205745521524"
+        "file": ".gitignore",
+        "hash": "14158189741252753807"
       },
       {
         "file": ".npmrc",
         "hash": "3244421341483603138"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "1379983966652230747"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4230216937812102267"
       },
       {
         "file": "package.json",
@@ -58,11 +50,19 @@
       },
       {
         "file": ".github/workflows/ci.yml",
-        "hash": "2092071812585437864"
+        "hash": "6733187972057719486"
       },
       {
         "file": "README.md",
         "hash": "10919049593088223224"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4230216937812102267"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
       }
     ],
     "projectFileMap": {
