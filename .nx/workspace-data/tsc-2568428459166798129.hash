@@ -1,0 +1,1289 @@
+{
+  "7795741687141541009_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "10198527917006852566_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects ui --includeDependentProjects -- npx nx build-deps ui"
+      }
+    }
+  },
+  "6275943371257639533_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "770535861108679822_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "8636172950928951944_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "5955162487775644876_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "4514453795202269404_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "17530528056845412558_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "426477904822831523_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "7660746364010595477_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "11416593251399607345_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "2539108422343663724_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "9075058009321084857_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "8018637977443860055_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "5527287421027824210_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "17471597019138230867_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "2951173097814611460_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "16083694442272750730_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "6564930885263358766_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "5655726193312608101_packages/ui/tsconfig.lib.json": {
+    "targets": {}
+  },
+  "5993896194183560409_packages/ui/tsconfig.lib.json": {
+    "targets": {}
+  },
+  "4558469336755762240_packages/ui/tsconfig.lib.json": {
+    "targets": {}
+  },
+  "12415088749269147156_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  },
+  "3082389960761480425_packages/ui/tsconfig.json": {
+    "targets": {
+      "typecheck": {
+        "dependsOn": [
+          "^typecheck"
+        ],
+        "command": "tsc --build --emitDeclarationOnly",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Runs type-checking for the project.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "6101688551578012496_packages/ui/tsconfig.lib.json": {
+    "targets": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "command": "tsc --build tsconfig.lib.json",
+        "options": {
+          "cwd": "packages/ui"
+        },
+        "cache": true,
+        "inputs": [
+          "{projectRoot}/package.json",
+          "{projectRoot}/tsconfig.json",
+          "{projectRoot}/tsconfig.lib.json",
+          "{projectRoot}/src",
+          "!{projectRoot}/node_modules",
+          "!{projectRoot}/dist",
+          "!{projectRoot}/test",
+          "!{projectRoot}/**/*.test.ts",
+          "!{projectRoot}/**/*.test.tsx",
+          "^production",
+          {
+            "externalDependencies": [
+              "typescript"
+            ]
+          }
+        ],
+        "outputs": [
+          "{projectRoot}/dist",
+          "{projectRoot}/*.tsbuildinfo"
+        ],
+        "syncGenerators": [
+          "@nx/js:typescript-sync"
+        ],
+        "metadata": {
+          "technologies": [
+            "typescript"
+          ],
+          "description": "Builds the project with `tsc`.",
+          "help": {
+            "command": "npx tsc --build --help",
+            "example": {
+              "args": [
+                "--force"
+              ]
+            }
+          }
+        }
+      },
+      "build-deps": {
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "watch-deps": {
+        "dependsOn": [
+          "build-deps"
+        ],
+        "command": "npx nx watch --projects @react-ui-monorepo/ui --includeDependentProjects -- npx nx build-deps @react-ui-monorepo/ui"
+      }
+    }
+  }
+}

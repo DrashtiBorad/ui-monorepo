@@ -1,0 +1,145 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.6",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "5929795205745521524"
+      },
+      {
+        "file": "README.md",
+        "hash": "10919049593088223224"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1379983966652230747"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7378375924001775226"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5673190821613406900"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "15930990162647689008"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6228174654577370084"
+      },
+      {
+        "file": "package.json",
+        "hash": "10610812232938986526"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "17516770727186600528"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "10000561406389782255"
+      }
+    ],
+    "projectFileMap": {
+      "@react-ui-monorepo/ui": [
+        {
+          "file": "packages/ui/dist/package.json",
+          "hash": "13458177309665013257"
+        },
+        {
+          "file": "packages/ui/dist/src/index.d.ts",
+          "hash": "10620852149727483350"
+        },
+        {
+          "file": "packages/ui/dist/src/index.d.ts.map",
+          "hash": "15102500079164078645"
+        },
+        {
+          "file": "packages/ui/dist/src/index.js",
+          "hash": "399525029902390452"
+        },
+        {
+          "file": "packages/ui/dist/src/lib/button.d.ts",
+          "hash": "15545731652302836571",
+          "deps": [
+            "npm:react@18.3.1"
+          ]
+        },
+        {
+          "file": "packages/ui/dist/src/lib/button.d.ts.map",
+          "hash": "11858708456272351832"
+        },
+        {
+          "file": "packages/ui/dist/src/lib/button.js",
+          "hash": "1010553362433097509",
+          "deps": [
+            "npm:react@18.3.1"
+          ]
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "2853538953657026256",
+          "deps": [
+            "npm:react@18.3.1",
+            "npm:react-dom@18.3.1",
+            "npm:@types/react",
+            "npm:nx",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/ui/project.json",
+          "hash": "5936702560840156721"
+        },
+        {
+          "file": "packages/ui/src/index.ts",
+          "hash": "13730274164644484395"
+        },
+        {
+          "file": "packages/ui/src/lib/button.tsx",
+          "hash": "12457207581752785519",
+          "deps": [
+            "npm:react@18.3.1"
+          ]
+        },
+        {
+          "file": "packages/ui/tsconfig.json",
+          "hash": "1990176283879002143"
+        },
+        {
+          "file": "packages/ui/tsconfig.lib.json",
+          "hash": "12944242280820828244"
+        }
+      ]
+    }
+  }
+}
